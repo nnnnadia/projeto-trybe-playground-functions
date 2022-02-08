@@ -65,8 +65,25 @@ function catAndMouse(mouse, cat1, cat2) {
 }
 
 // Desafio 8
-function fizzBuzz() {
-  // seu código aqui
+function makeWeirdWord(number) {
+  if (number % 5 !== 0) {
+    if (number % 3 !== 0) {
+      return 'bug!';
+    }
+    return 'fizz';
+  }
+  if (number % 3 === 0) {
+    return 'fizzBuzz';
+  }
+  return 'buzz';
+}
+
+function fizzBuzz(numberArr) {
+  let weirdArr = [];
+  for (let number of numberArr) {
+    weirdArr.push(makeWeirdWord(number));
+  }
+  return weirdArr;
 }
 
 // Desafio 9
