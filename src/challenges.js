@@ -1,6 +1,6 @@
 // Desafio 1
-function compareTrue(valor1, valor2) {
-  return valor1 && valor2;
+function compareTrue(value1, value2) {
+  return value1 && value2;
 }
 
 // Desafio 2
@@ -16,11 +16,11 @@ function splitSentence(sentence) {
 }
 
 // Desafio 4
-function concatName(nomeCompleto) {
-  let ultimoPrimeiroNome = [];
-  ultimoPrimeiroNome.push(nomeCompleto.slice(nomeCompleto.length - 1));
-  ultimoPrimeiroNome.push(nomeCompleto.slice(0, 1));
-  return ultimoPrimeiroNome.join(', ');
+function concatName(completeName) {
+  let lastFirstName = [];
+  lastFirstName.push(completeName.slice(completeName.length - 1));
+  lastFirstName.push(completeName.slice(0, 1));
+  return lastFirstName.join(', ');
 }
 
 // Desafio 5
