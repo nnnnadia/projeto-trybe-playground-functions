@@ -16,8 +16,11 @@ function splitSentence(sentence) {
 }
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(nomeCompleto) {
+  let ultimoPrimeiroNome = [];
+  ultimoPrimeiroNome.push(nomeCompleto.slice(nomeCompleto.length - 1));
+  ultimoPrimeiroNome.push(nomeCompleto.slice(0, 1));
+  return ultimoPrimeiroNome.join(', ');
 }
 
 // Desafio 5
