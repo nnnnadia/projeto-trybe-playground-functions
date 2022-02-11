@@ -36,7 +36,6 @@ function countsNumbers(numberArr) {
   }
   return numbers;
 }
-countsNumbers([1, 2, 3, 4, 5, 9, 7, 8, 9, 9, 1]);
 
 function repeatsThreeTimes(numberArr) {
   let numbers = countsNumbers(numberArr);
@@ -70,11 +69,16 @@ function generatePhoneNumber(numberArr) {
   }
 }
 
-// console.log(generatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]));
-
 // Desafio 12
-function triangleCheck() {
-  // seu código aqui
+function triangleCheck(lineA, lineB, lineC) {
+  let triangleLines = [lineA, lineB, lineC];
+  triangleLines.sort();
+  let sum = triangleLines[1] + triangleLines[2];
+  let absDif = Math.abs(triangleLines[1] - triangleLines[2]);
+  if (triangleLines[0] < sum && triangleLines[0] > absDif) {
+    return true;
+  }
+  return false;
 }
 
 // Desafio 13

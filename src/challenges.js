@@ -1,3 +1,9 @@
+/*
+  Used documentation:
+  - www.w3schools.com/
+  - www.developer.mozilla.org/
+*/
+
 // Desafio 1
 function compareTrue(value1, value2) {
   return value1 && value2;
@@ -89,7 +95,7 @@ function fizzBuzz(numberArr) {
 // Desafio 9
 function encode(string) {
   let encodedString = string;
-  encodedString = encodedString.replace(/a/g, 1);
+  encodedString = encodedString.replace(/a/g, 1); //
   encodedString = encodedString.replace(/e/g, 2);
   encodedString = encodedString.replace(/i/g, 3);
   encodedString = encodedString.replace(/o/g, 4);
