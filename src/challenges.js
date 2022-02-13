@@ -2,6 +2,7 @@
   Used documentation:
   - www.w3schools.com/
   - www.developer.mozilla.org/
+  - https://eslint.org/
 */
 
 // Desafio 1
