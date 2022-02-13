@@ -3,8 +3,6 @@
   - www.w3schools.com/
   - www.developer.mozilla.org/
   - www.eslint.org/
-  - www.stackoverflow.com/questions/1623221/how-to-find-a-number-in-a-string-using-javascript/30160994
-  - www.regular-expressions.info/javascript.html
 */
 
 // Desafio 11
@@ -85,6 +83,11 @@ function triangleCheck(lineA, lineB, lineC) {
 }
 
 // Desafio 13
+/*
+  References:
+  - www.stackoverflow.com/questions/1623221/how-to-find-a-number-in-a-string-using-javascript/30160994
+  - www.regular-expressions.info/javascript.html
+*/
 function fechaConta(drinkIn) {
   let beverages = drinkIn.match(/\d+/g);
   let water = parseInt(beverages[0], 10);
@@ -101,7 +104,6 @@ function hydrate(drinkIn) {
   }
   return `${water} copos de água`;
 }
-console.log(hydrate('1 cerveja'));
 
 module.exports = {
   generatePhoneNumber,

@@ -1,8 +1,8 @@
 /*
-  Used documentation:
+  Used documentation and references:
   - www.w3schools.com/
   - www.developer.mozilla.org/
-  - https://eslint.org/
+  - www.eslint.org/
 */
 
 // Desafio 1
