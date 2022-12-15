@@ -1,6 +1,6 @@
 # Projeto Trybe - Playground Functions
 
-Neste projeto desenvolvi as seguintes habilidades:
+#### Neste projeto desenvolvi as seguintes habilidades:
 
 - Escrever códigos em JavaScript que usam variáveis e tipos primitivos;
 - Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código;
@@ -13,7 +13,7 @@ Neste projeto desenvolvi as seguintes habilidades:
 - Utilizar o comando `for/in`;
 - Utilizar funções para organizar e estruturar o seu código;
 
-Etapas/Questões:
+#### Etapas/Questões:
 
 1. Crie uma função usando o operador &&
 2. Crie uma função que calcule a área de um triângulo
@@ -28,3 +28,7 @@ Etapas/Questões:
 11. Crie uma função de Número de Telefone
 12. Crie uma função de Condição de existência de um triângulo
 13. Crie uma função de boas vindas ao Bar da Trybe!
+
+#### Code snippet:
+
+![print do desafio 7](./playground-functions-print.png)
