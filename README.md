@@ -1,5 +1,7 @@
 # Projeto Trybe - Playground Functions
 
+A partir dos requisitos foram implementadas funções para o correto comportamento de cada uma delas e avaliação de testes.
+
 #### Neste projeto desenvolvi as seguintes habilidades:
 
 - Escrever códigos em JavaScript que usam variáveis e tipos primitivos;
@@ -7,7 +9,7 @@
 - Criar códigos que usam estruturas condicionais, como o `if/else`;
 - Manipular arrays (listas);
 - Utilizar o comando `for`;
-- Quebrar grandes problemas em pequenos;
+- Quebrar grandes problemas em pequenos;projeto-trybe-playground-functions
 - Utilizar a lógica de programação na resolução de problemas;
 - Manipular objetos;
 - Utilizar o comando `for/in`;
